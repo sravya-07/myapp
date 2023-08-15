@@ -24,6 +24,8 @@ public class StartBookApplication {
             repository.save(new Book("A Guide to the Bodhisattva Way of Life", "Santideva", new BigDecimal("15.41")));
             repository.save(new Book("The Life-Changing Magic of Tidying Up", "Marie Kondo", new BigDecimal("9.69")));
             repository.save(new Book("Refactoring: Improving the Design of Existing Code", "Martin Fowler", new BigDecimal("47.99")));
+            repository.save(new Book("A Book", "Some Author", new BigDecimal("01.10")));
+            
         };
     }
 }
